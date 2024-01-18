@@ -1,0 +1,47 @@
+.menus{
+    width: 70%;
+    height: 500px;
+    // background-color: #ffc515;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 160px;
+    .cardd{
+        width: 330px;
+        height: 80px;
+        // background-color: aqua;
+        border: 1px solid #ffc515;
+        .btns{
+            display: flex;
+            gap: 10px;
+        }
+        button{
+            width: 60px;
+            height: 20px;
+            background-color: #ffc515;
+            outline: none;
+            border: none;
+            font-family: sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        h4{
+            font-family: sans-serif;
+            color: black;
+        }
+        p{
+            font-family: sans-serif;
+            font-size: 13px;
+            color: gray;
+        }
+        .menuText{
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            gap: 10px;
+            span{
+                margin-left: 100px;
+            }
+        }
+    }
+}

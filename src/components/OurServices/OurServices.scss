@@ -1,0 +1,112 @@
+.ourServices {
+    width: 100%;
+    height: 105vh;
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    button{
+        width: 190px;
+        height: 55px;
+        background-color: #ffc515;
+        font-family: sans-serif;
+        outline: none;
+        border: none;
+        font-size: 17px;
+    }   
+    gap: 30px;
+    
+    .menus{
+        width: 70%;
+        height: 500px;
+        // background-color: #ffc515;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        .card{
+            width: 400px;
+            height: 80px;
+            // background-color: aqua;
+            .btns{
+                display: flex;
+                gap: 10px;
+            }
+            button{
+                width: 60px;
+                height: 20px;
+                background-color: #ffc515;
+                outline: none;
+                border: none;
+                font-family: sans-serif;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            h4{
+                font-family: sans-serif;
+                color: white;
+            }
+            p{
+                font-family: sans-serif;
+                font-size: 13px;
+                color: gray;
+            }
+            .menuText{
+                display: flex;
+                flex-direction: column;
+                display: flex;
+                gap: 10px;
+                span{
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+    .fa-heart{
+        font-size: 15px;
+    }
+     i {
+        font-size: 50px;
+        color: white;
+    }
+    .ourServicesText {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+ 
+
+        p {
+            font-family: sans-serif;
+            font-size: 40px;
+            color: white;
+        }
+
+        .lineLeft {
+            width: 200px;
+            height: 0.1px;
+            background-color: #ffc515;
+
+            p {
+                font-family: sans-serif;
+                font-size: 50px;
+            }
+        }
+
+        .lineRight {
+            width: 200px;
+            height: 0.1px;
+            background-color: #ffc515;
+        }
+    }
+    ul{
+        display: flex;
+        gap: 25px;
+
+        li{
+            color: white;
+            font-family: sans-serif;
+        }
+    }
+}
